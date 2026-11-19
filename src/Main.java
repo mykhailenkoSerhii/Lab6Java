@@ -253,10 +253,18 @@ public class Main
 		JButton addBtn = new JButton("Add Row");
 		JButton deleteBtn = new JButton("Remove Selected");
 
-		inputPanel.add(new JLabel("ID:")); inputPanel.add(tfId);
-		inputPanel.add(new JLabel("Full Name:")); inputPanel.add(tfName);
-		inputPanel.add(new JLabel("Group:")); inputPanel.add(tfGroup);
-		inputPanel.add(new JLabel("Score:")); inputPanel.add(tfScore);
+		inputPanel.add(new JLabel("ID:"));
+		inputPanel.add(tfId);
+
+		inputPanel.add(new JLabel("Full Name:"));
+		inputPanel.add(tfName);
+
+		inputPanel.add(new JLabel("Group:"));
+		inputPanel.add(tfGroup);
+
+		inputPanel.add(new JLabel("Score:"));
+		inputPanel.add(tfScore);
+
 		inputPanel.add(addBtn);
 		inputPanel.add(deleteBtn);
 
